@@ -1,0 +1,46 @@
+    body {
+    background-image: url(https://images.pexels.com/photos/3023211/pexels-photo-3023211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: auto 800px;
+    image-orientation: rotate 90;
+    background-repeat: no-repeat;
+    ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color:azure;
+    }
+
+    .navbar logo {
+        color: white;
+        text-align: left;
+        font-size: 35px;
+        background-color: darkkhaki;
+        }
+
+    .navbar ul{
+        list-style: none;
+        background: rgb(37, 37, 70);
+        padding: 0;
+        margin: 0;
+        text-align: right;
+       }
+    
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: azure;
+        width: 100px;
+        display: block;
+        padding: 25px 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .navbar a:hover{
+        background: crimson;
+    } 
+
+    
+    
