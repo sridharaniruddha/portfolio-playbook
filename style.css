@@ -1,9 +1,4 @@
-    body {
-    background-image: url(https://images.pexels.com/photos/3023211/pexels-photo-3023211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: auto 800px;
-    image-orientation: rotate 90;
-    background-repeat: no-repeat;
-    ;
+body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -11,11 +6,14 @@
     background-color:azure;
     }
 
-    .navbar logo {
+    .logo {
         color: white;
         text-align: left;
         font-size: 35px;
-        background-color: darkkhaki;
+        position: absolute;
+        height:auto;
+        left: 0px;
+        width:auto;
         }
 
     .navbar ul{
