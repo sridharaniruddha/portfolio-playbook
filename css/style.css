@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     background-color:azure;
     }
 
+    /* Navbar styling begins */
     .logo {
         color: white;
         text-align: left;
@@ -39,6 +40,67 @@ body {
     .navbar a:hover{
         background: crimson;
     } 
+    /* Navbar styling ends */
 
+    .hero-banner img {
+        width: 350px;
+        padding-left: 40%;
+    }
+
+    /* #hero-banner {
+        
+    } */
+
+    .flex-container  {
+        display: flex;
+        flex-direction: row;
+        background: var(--primary-background-color);
+        justify-content:space-between;
+      }
     
-    
+    .left-text{
+        flex-basis: 17%;  
+        background-color: var(--primary-background-color);
+        background-repeat: no-repeat; 
+        margin: 20px 0px 0px 120px;
+        padding: 0 100px 0 0;
+        color: var(--primary-text-color);
+      }
+      
+      
+      .right-text{
+        flex-basis: 83%;  
+        color: var(--primary-text-color);
+        background-color: var(--primary-background-color);
+        font-size: 17px;
+      }
+
+
+      /* Project images */
+
+      .work {
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat;
+        height: 300px;
+        width: 600px;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .work-1 {
+        background-image: url("../assets/images/10871\ 60.jpg");
+      }
+
+      .work-2 {
+        background-image: url("../assets/images/\ Mockup\ apple\ 50.jpg");
+      }
+
+      .work-3 {
+        background-image: url("../assets/images/bg\ pink.jpg");
+      }
+
+      .project {
+        flex-basis: 40%;
+        margin:5px;
+      }
