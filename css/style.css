@@ -50,28 +50,44 @@ body {
     /* #hero-banner {
         
     } */
+/* h1 element */
+h1 {
+    color: rgb(42, 39, 39);
+    background: azure;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 20px 0px; 
+  }
+  
+  
+  /* h2 element */
+  h2 {
+    /* border-bottom: 5px solid var(--primary-text-color); */
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
 
     .flex-container  {
         display: flex;
         flex-direction: row;
-        background: var(--primary-background-color);
+        background: azure;
         justify-content:space-between;
       }
     
     .left-text{
         flex-basis: 17%;  
-        background-color: var(--primary-background-color);
+        background-color: azure;
         background-repeat: no-repeat; 
         margin: 20px 0px 0px 120px;
         padding: 0 100px 0 0;
-        color: var(--primary-text-color);
+        color: rgb(42, 39, 39);
       }
       
       
       .right-text{
         flex-basis: 83%;  
-        color: var(--primary-text-color);
-        background-color: var(--primary-background-color);
+        color: rgb rgb(42, 39, 39);
+        background-color: azure;
         font-size: 17px;
       }
 
@@ -104,3 +120,4 @@ body {
         flex-basis: 40%;
         margin:5px;
       }
+
