@@ -12,8 +12,8 @@ As a developer, I want to create a portfolio website that can be used to showcas
 
 ## Preview
 
-A screenshot of my site at present can be seen here
-
-
-
 My website can be deployed here at https://sridharaniruddha.github.io/portfolio-playbook/
+
+#### Screenshot of the deployed site below:
+
+<img width="1728" alt="Screenshot 2024-03-22 at 09 27 38" src="https://github.com/sridharaniruddha/portfolio-playbook/assets/152184230/dad75083-9bca-4831-9988-8eaa9d4b33d6">
